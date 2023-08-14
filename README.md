@@ -12,3 +12,4 @@
  the sidebar, and click on the Language Modules link below the Installed Languages... button.
  
  Version 1.0	20170418	First GitHub share. (20190710)
+ Version 2.0	20230814	Update for Poser 13.1	(20230814)

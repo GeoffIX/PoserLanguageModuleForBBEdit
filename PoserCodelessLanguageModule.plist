@@ -23,6 +23,9 @@
 		<string>active</string>
 		<string>actor</string>
 		<string>actorgroup</string>
+		<string>actorToControl</string>
+		<string>adaptiveSampling</string>
+		<string>adaptiveThreshold</string>
 		<string>addActor</string>
 		<string>addCamera</string>
 		<string>addChild</string>
@@ -35,6 +38,7 @@
 		<string>advancedInputsCollapsed</string>
 		<string>advancedSamplingControls</string>
 		<string>algorithm</string>
+		<string>alignment</string>
 		<string>allowDisplacement</string>
 		<string>allowRayTracing</string>
 		<string>allowsBending</string>
@@ -54,6 +58,8 @@
 		<string>aoAndIDL</string>
 		<string>aoBias</string>
 		<string>aoDist</string>
+		<string>aaPathTraceMinSamples</string>
+		<string>aaPathTraceTimeLimit</string>
 		<string>aoSamples</string>
 		<string>apertureBlades</string>
 		<string>apertureBladesRotation</string>
@@ -64,8 +70,11 @@
 		<string>attrib</string>
 		<string>audioText</string>
 		<string>auto</string>
+		<string>autoDeleteFrames</string>
 		<string>autoDensity</string>
+		<string>autoMakeMovie</string>
 		<string>autoPlay</string>
+		<string>autoPlayMovie</string>
 		<string>autoScaleToView</string>
 		<string>autoSpacing</string>
 		<string>autoValue</string>
@@ -74,6 +83,9 @@
 		<string>BACK_CAMERA</string>
 		<string>backfaceBehavior</string>
 		<string>backfaceCull</string>
+		<string>baryCoords</string>
+		<string>baryPolyInd</string>
+		<string>baseActor</string>
 		<string>baseProp</string>
 		<string>beginValueKeys</string>
 		<string>bend</string>
@@ -87,19 +99,36 @@
 		<string>bgStyle</string>
 		<string>blendType</string>
 		<string>blinkRate</string>
+		<string>bloomIntensity</string>
+		<string>bloomLightThreshold</string>
+		<string>bloomRadiusPercent</string>
+		<string>blur</string>
 		<string>BOTTOM_CAMERA</string>
 		<string>boxesAlways</string>
 		<string>br</string>
+		<string>brightness</string>
 		<string>britenessLoSegCutOff</string>
 		<string>britenessSegCutOff</string>
 		<string>brushStyle</string>
 		<string>bucketSize</string>
 		<string>build</string>
 		<string>buildSphere</string>
+		<string>bulletBendResistance</string>
+		<string>bulletCollisionMargin</string>
+		<string>bulletDamping</string>
+		<string>bulletFriction</string>
+		<string>bulletGravity</string>
+		<string>bulletMass</string>
+		<string>bulletRestitution</string>
+		<string>bulletRootStiffness</string>
+		<string>bulletStiffness</string>
+		<string>bulletStiffnessFalloff</string>
+		<string>bulletTipStiffness</string>
 		<string>bumpMap</string>
 		<string>bumpStrength</string>
 		<string>calcCurve</string>
 		<string>calcWeights</string>
+		<string>calloutStyle</string>
 		<string>camAutoCenterX</string>
 		<string>camAutoCenterY</string>
 		<string>camAutoCenterZ</string>
@@ -113,11 +142,14 @@
 		<string>CARTOONNOLINE</string>
 		<string>castShadows</string>
 		<string>castsShadow</string>
+		<string>categories</string>
+		<string>catid</string>
 		<string>causticsRefractive</string>
 		<string>causticsReflective</string>
 		<string>center</string>
 		<string>channels</string>
 		<string>clearFigureKeys</string>
+		<string>closed</string>
 		<string>clumpiness</string>
 		<string>collapsed</string>
 		<string>color</string>
@@ -138,7 +170,10 @@
 		<string>conformFollowOrigin</string>
 		<string>conformForceEndPoint</string>
 		<string>conformScale</string>
+		<string>conformTranslations</string>
+		<string>controlHandleProp</string>
 		<string>controlProp</string>
+		<string>contrastPercent</string>
 		<string>CPU</string>
 		<string>creaseAngle</string>
 		<string>createFullBodyMorph</string>
@@ -162,6 +197,7 @@
 		<string>deformTarget</string>
 		<string>deltaAddDelta</string>
 		<string>deltas</string>
+		<string>denoiseIntensity</string>
 		<string>density</string>
 		<string>depth</string>
 		<string>depthCamera</string>
@@ -206,7 +242,11 @@
 		<string>endPt</string>
 		<string>endValueKeys</string>
 		<string>English</string>
+		<string>enumValue</string>
 		<string>exposedAs</string>
+		<string>exposure</string>
+		<string>exposureNew</string>
+		<string>extLineScaleParm</string>
 		<string>eyeMotion</string>
 		<string>f</string>
 		<string>FACE_CAMERA</string>
@@ -252,6 +292,7 @@
 		<string>geomChan</string>
 		<string>geomCustom</string>
 		<string>geometricEdgeDistance</string>
+		<string>geometricEdgeLinesDrawLast</string>
 		<string>geometricEdgeLinesOn</string>
 		<string>geometricEdgeLinesWelded</string>
 		<string>geomHandlerGeom</string>
@@ -267,6 +308,7 @@
 		<string>giSamples</string>
 		<string>giStrength</string>
 		<string>glossySamples</string>
+		<string>gluePoint</string>
 		<string>goal</string>
 		<string>graphPalette</string>
 		<string>gravityK</string>
@@ -297,6 +339,7 @@
 		<string>hither</string>
 		<string>horizon</string>
 		<string>illustrationParms</string>
+		<string>imageCompression</string>
 		<string>inactiveGroup</string>
 		<string>includedLayers</string>
 		<string>includeInDepthCue</string>
@@ -384,6 +427,10 @@
 		<string>maxTransmissionBounce</string>
 		<string>maxVolumeBounce</string>
 		<string>mBlurAmount</string>
+		<string>measurementAngle</string>
+		<string>measurementCircle</string>
+		<string>measurementLine</string>
+		<string>measurementPolyline</string>
 		<string>meshLightSamples</string>
 		<string>min</string>
 		<string>minBounce</string>
@@ -414,6 +461,7 @@
 		<string>normalSegCutOff</string>
 		<string>Ns</string>
 		<string>NsExponent</string>
+		<string>NULL</string>
 		<string>nullzone</string>
 		<string>numbDeltas</string>
 		<string>numbElems</string>
@@ -463,14 +511,21 @@
 		<string>passCustom3</string>
 		<string>passNormal</string>
 		<string>passPoint</string>
+		<string>passSFNormal</string>
+		<string>passSFTextureCoordinates</string>
+		<string>passSFZDepth</string>
 		<string>passTextureCoordinates</string>
 		<string>passToonID</string>
 		<string>passZDepth</string>
 		<string>perspective</string>
 		<string>pickActor</string>
+		<string>pixelate</string>
 		<string>pixelSamples</string>
 		<string>pointAtParm</string>
+		<string>points</string>
+		<string>polyInd</string>
 		<string>populationCount</string>
+		<string>populationDensity</string>
 		<string>pos</string>
 		<string>posBulgeLeft</string>
 		<string>posBulgeRight</string>
@@ -479,6 +534,7 @@
 		<string>postBlendFrames</string>
 		<string>postBlendType</string>
 		<string>postFilterParm1</string>
+		<string>postFX</string>
 		<string>preBlendFrames</string>
 		<string>preBlendType</string>
 		<string>presetMaterial</string>
@@ -542,12 +598,15 @@
 		<string>rotations</string>
 		<string>rotationsOffset</string>
 		<string>runPythonScript</string>
+		<string>runPythonScriptEx</string>
 		<string>s</string>
 		<string>sadness</string>
 		<string>sampleAllLightsDirect</string>
 		<string>sampleAllLightsIndirect</string>
 		<string>sampleClampDirect</string>
 		<string>sampleClampIndirect</string>
+		<string>saturation</string>
+		<string>saturationNew</string>
 		<string>scale</string>
 		<string>scaleX</string>
 		<string>scaleY</string>
@@ -584,6 +643,7 @@
 		<string>SKETCHSHADED</string>
 		<string>skinType</string>
 		<string>sl</string>
+		<string>slack</string>
 		<string>sm</string>
 		<string>smartparent</string>
 		<string>SMOOTHLINED</string>
@@ -592,6 +652,7 @@
 		<string>smoothScaleX</string>
 		<string>smoothScaleY</string>
 		<string>smoothScaleZ</string>
+		<string>smoothTran</string>
 		<string>smoothZones</string>
 		<string>soundFile</string>
 		<string>soundMute</string>
@@ -601,6 +662,7 @@
 		<string>spherezone</string>
 		<string>sphereZoneProp</string>
 		<string>spl</string>
+		<string>splineType</string>
 		<string>springDamping</string>
 		<string>springK</string>
 		<string>startFrame</string>
@@ -672,6 +734,7 @@
 		<string>toonTones</string>
 		<string>TOP_CAMERA</string>
 		<string>topCamera</string>
+		<string>totalArea</string>
 		<string>totalNormCutOff</string>
 		<string>trackingScale</string>
 		<string>trackingScaleMult</string>
@@ -700,11 +763,13 @@
 		<string>uniqueInterp</string>
 		<string>UNIVERSE</string>
 		<string>useBinaryMorph</string>
+		<string>useBloom</string>
 		<string>useBulgeMapLeft</string>
 		<string>useBulgeMapRight</string>
 		<string>useBump</string>
 		<string>useCamera</string>
 		<string>useCustomFramesPerSec</string>
+		<string>useDenoise</string>
 		<string>useDOF</string>
 		<string>useGamma</string>
 		<string>useGI</string>
@@ -713,6 +778,7 @@
 		<string>usemtl</string>
 		<string>useP5renderer</string>
 		<string>USEPARENT</string>
+		<string>usePostFX</string>
 		<string>usePreviewRoot</string>
 		<string>userCreated</string>
 		<string>useRenderer</string>
@@ -724,6 +790,7 @@
 		<string>useUVspace</string>
 		<string>useZBuffer</string>
 		<string>usingGroups</string>
+		<string>uuid</string>
 		<string>v</string>
 		<string>value</string>
 		<string>valueKey</string>
@@ -738,6 +805,7 @@
 		<string>vanishingLines</string>
 		<string>version</string>
 		<string>vertsPerHair</string>
+		<string>visemeMapFile</string>
 		<string>visibility</string>
 		<string>visibleInCamera</string>
 		<string>visibleInIDL</string>
@@ -757,6 +825,7 @@
 		<string>widthRange</string>
 		<string>WIREFRAME</string>
 		<string>wireframeLineEdge</string>
+		<string>wrapperBackground</string>
 		<string>xOffsetA</string>
 		<string>xOffsetB</string>
 		<string>yOffsetA</string>
